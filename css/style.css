@@ -63,6 +63,7 @@ body {
   color: var(--revers-color);
 }
 .hero-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -138,12 +139,16 @@ body {
   color: var(--revers-color);
 }
 .footer-adress {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--revers-color);
 }
 .footer-contacts {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -158,14 +163,15 @@ body {
 
 /*---Portfolio----*/
 .filter-item {
+}
+.filter-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
-}
-.filter-btn {
   background-color: #f5f4fa;
   cursor: pointer;
 }
